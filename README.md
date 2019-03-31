@@ -4,6 +4,8 @@
 ![Gatsby Version](https://img.shields.io/badge/gatsby-2.3.3-purple.svg)
 ![MongoDB Version](https://img.shields.io/badge/pull_requests-allowed-yellow.svg)
 
+<img src="./preview.png" alt="Website preview" />
+
 Website for Kenneth Kwakye-Gyamfi, built with [GatsbyJS](https://www.gatsbyjs.org) and React and hosted with ♥ at [Netlify](https://www.netlify.com/). This repository draws inspiration from the following repositories/starter packs:
 
 -   [smartive.ch](https://github.com/smartive/smartive.ch)
