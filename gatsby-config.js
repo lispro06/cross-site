@@ -12,12 +12,29 @@ module.exports = {
 		socialUrls: [
 			{
 				url: 'https://www.facebook.com/profile.php?id=100009436144652',
-				className: 'ti-facebook'
+				className: 'fab fa-facebook',
+				containerClass: 'facebook'
 			},
-			{ url: 'https://www.github.com/cr05s19xx', className: 'ti-github' },
-			{ url: 'https://www.twitter.com/cross19xx', className: 'ti-twitter-alt' },
-			{ url: 'https://www.instagram.com/kenneth_kwakyegyamfi/', className: 'ti-instagram' },
-			{ url: 'https://www.linkedin.com/in/kenneth-kwakye-gyamfi/', className: 'ti-linkedin' }
+			{
+				url: 'https://www.github.com/cr05s19xx',
+				className: 'fab fa-github',
+				containerClass: 'github'
+			},
+			{
+				url: 'https://www.twitter.com/cross19xx',
+				className: 'fab fa-twitter',
+				containerClass: 'twitter'
+			},
+			{
+				url: 'https://www.instagram.com/kenneth_kwakyegyamfi/',
+				className: 'fab fa-instagram',
+				containerClass: 'instagram'
+			},
+			{
+				url: 'https://www.linkedin.com/in/kenneth-kwakye-gyamfi/',
+				className: 'fab fa-linkedin',
+				containerClass: 'linkedin'
+			}
 		]
 	},
 	plugins: [
