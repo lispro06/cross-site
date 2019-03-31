@@ -1,0 +1,119 @@
+/*
+ * @Author: Kenneth Kwakye-Gyamfi
+ * @Date: 2019-03-31 13:16:47
+ * @Last Modified by: Kenneth Kwakye-Gyamfi
+ * @Last Modified time: 2019-03-31 13:43:34
+ */
+/*#region Home hero*/
+.home-hero {
+	min-height: 85vh;
+	background-color: #252934;
+	position: relative;
+}
+
+.home-hero__particles {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.home-hero__inner {
+	position: absolute;
+	width: 100%;
+	padding: 0 2rem;
+	height: 12rem;
+	z-index: 2;
+	top: calc(50% - 6rem);
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-hero__title {
+	text-align: center;
+	line-height: 1.4;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-family: 'NotoSans-Regular', 'Open Sans', -apple-system, 'Segoe UI', Helvetica, Arial,
+		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	margin-bottom: 2rem;
+}
+
+.home-hero__name {
+	color: #009688;
+}
+
+.home-hero__button {
+	padding: 0.75rem 1.25rem;
+	border: 0.125rem solid #ffffff;
+	color: #ffffff;
+	background: transparent;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	transition: 450ms;
+}
+
+.home-hero__button-text,
+.home-hero__button-icon {
+	font-size: 0.9rem;
+	transition: 150ms;
+	display: inline-block;
+}
+
+.home-hero__button-text {
+	margin-right: 0.75rem;
+}
+
+.home-hero__button:hover {
+	background-color: #009688;
+	border-color: #009688;
+}
+
+.home-hero__button:hover .home-hero__button-icon {
+	transform: rotate(90deg);
+}
+
+@media screen and (min-width: 30rem) {
+	.home-hero__inner {
+		width: 30rem;
+		left: calc(50% - 15rem);
+		padding: 0;
+	}
+
+	.home-hero__title {
+		font-size: 2rem;
+	}
+
+	.home-hero__button {
+		padding: 1rem 2rem;
+	}
+
+	.home-hero__button-text,
+	.home-hero__button-icon {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 40rem) {
+	.home-hero__inner {
+		width: 40rem;
+		left: calc(50% - 20rem);
+	}
+}
+
+@media screen and (min-width: 68rem) {
+	.home-hero__inner {
+		width: 50%;
+		left: 25%;
+	}
+
+	.home-hero__title {
+		font-size: 2.5rem;
+	}
+}
+/*#endregion*/
