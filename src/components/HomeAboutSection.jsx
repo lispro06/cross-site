@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 14:06:02
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-03-31 17:12:34
+ * @Last Modified time: 2019-03-31 18:07:52
  */
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
@@ -68,7 +68,7 @@ export default function HomeAboutSection() {
 					{
 						title: 'Clean code OCD patient',
 						desc:
-							'Prefer to follow the software development lifecycle meticulously, not forgetting sections such as documentation and testing.',
+							'Prefer to follow the software development lifecycle meticulously, not forgetting sections such as documentation and testing. 🤒',
 						img: data.cleanCodeImg
 					}
 				];
