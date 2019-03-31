@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 14:06:02
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-03-31 14:50:59
+ * @Last Modified time: 2019-03-31 17:12:34
  */
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
@@ -12,29 +12,29 @@ const imgQueries = graphql`
 	query {
 		frontendImg: file(relativePath: { eq: "desktop-computer.png" }) {
 			childImageSharp {
-				fixed(width: 60) {
-					...GatsbyImageSharpFixed
+				fluid(maxWidth: 256) {
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		backendImg: file(relativePath: { eq: "cloud-server.png" }) {
 			childImageSharp {
-				fixed(width: 60) {
-					...GatsbyImageSharpFixed
+				fluid(maxWidth: 256) {
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		mobileImg: file(relativePath: { eq: "smartphone.png" }) {
 			childImageSharp {
-				fixed(width: 60) {
-					...GatsbyImageSharpFixed
+				fluid(maxWidth: 256) {
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
 		cleanCodeImg: file(relativePath: { eq: "clean-code.png" }) {
 			childImageSharp {
-				fixed(width: 60) {
-					...GatsbyImageSharpFixed
+				fluid(maxWidth: 256) {
+					...GatsbyImageSharpFluid
 				}
 			}
 		}
@@ -78,7 +78,7 @@ export default function HomeAboutSection() {
 						{sections.map((section, index) => (
 							<div className="home-about-section column" key={`about-${index}`}>
 								<div className="about-section__img">
-									<Image fixed={section.img.childImageSharp.fixed} />
+									<Image fluid={section.img.childImageSharp.fluid} />
 								</div>
 								<p className="about-section__title">{section.title}</p>
 								<p className="about-section__desc">{section.desc}</p>
