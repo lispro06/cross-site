@@ -15,7 +15,7 @@ export default class FooterForm extends React.Component {
 
 	render() {
 		return (
-			<form name="contact" className="footer-form" data-netlify="true">
+			<form name="contact" className="footer-form">
 				<input
 					type="text"
 					className="footer-form__input"
