@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 13:16:47
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-04-11 21:15:25
+ * @Last Modified time: 2019-04-11 22:04:45
  */
 /*#region Home hero*/
 .home-hero {
@@ -221,6 +221,31 @@
 	line-height: 1.4;
 	text-align: center;
 	color: #555555;
+}
+
+.resume-container {
+	padding: 1rem 0 0;
+}
+
+.resume-container a {
+	display: inline-block;
+	font-size: 0.9rem;
+	padding: 0.75rem;
+	color: #666666;
+	background-color: transparent;
+	border-radius: 0.25rem;
+	border: 1px solid #24292e;
+	transition: 150ms;
+}
+
+.resume-container a:hover,
+.resume-container a:active {
+	background-color: #eeeeee;
+}
+
+.resume-container a i {
+	display: inline-block;
+	margin-right: 0.5rem;
 }
 
 .home-user-image__socials {

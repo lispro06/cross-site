@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 15:00:02
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-03-31 16:45:42
+ * @Last Modified time: 2019-04-11 22:00:24
  */
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
@@ -50,6 +50,13 @@ export default function HomeUser() {
 							in North Legon, Accra. I have the passion for developing secure and
 							aesthetically pleasing applications 😍, or portions of an application.
 						</p>
+
+						<div className="resume-container">
+							<a href="/Kenneth-Kwakye-Gyamfi-resume.pdf" download>
+								<i className="ti-download" />
+								<span>Download my resumé</span>
+							</a>
+						</div>
 
 						<SocialLinks className="home-user-image__socials" />
 					</div>
