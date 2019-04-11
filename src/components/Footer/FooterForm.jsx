@@ -13,13 +13,9 @@ export default class FooterForm extends React.Component {
 		message: ''
 	};
 
-	onSubmit = e => {
-		e.preventDefault();
-	};
-
 	render() {
 		return (
-			<form className="footer-form" onSubmit={this.submit}>
+			<form name="contact" className="footer-form" data-netlify="true">
 				<input
 					type="text"
 					className="footer-form__input"
