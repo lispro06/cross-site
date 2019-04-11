@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 13:16:47
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-04-11 20:57:24
+ * @Last Modified time: 2019-04-11 21:15:25
  */
 /*#region Home hero*/
 .home-hero {
@@ -450,3 +450,21 @@
 	color: #ffffff;
 	padding: 0.5rem;
 }
+/*#endregion*/
+
+/*#region Home Projects. Listing all the projects I've done */
+.home-quote {
+	padding-top: 5rem !important;
+	padding-bottom: 5rem !important;
+	text-align: center;
+	line-height: 1.4;
+	color: #252934;
+}
+
+.home-quote__title {
+	font-family: 'NotoSans-Italic', 'Open Sans Italic', 'Arial', 'Helvetica', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	margin-bottom: 0.75rem;
+}
+/*#endregion*/
