@@ -302,6 +302,7 @@
 .home-user-progress__bar {
 	width: calc(100% - 7.5rem);
 	position: relative;
+	transition: 350ms;
 }
 
 .home-user-progress__bar-filled {
@@ -311,6 +312,7 @@
 	z-index: 1;
 	background-color: #00796b;
 	height: 2rem;
+	transition: 350ms;
 }
 
 .home-user-progress__bar-text {

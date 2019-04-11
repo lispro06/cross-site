@@ -5,6 +5,7 @@
  * @Last Modified time: 2019-03-31 16:43:21
  */
 import React from 'react';
+import { bool as booleanProp } from 'prop-types';
 
 import HomeUserProgress from './HomeUserProgress';
 
@@ -22,12 +23,22 @@ const ACHIEVEMENTS = [
 	{ title: 'Electron', value: 60 }
 ];
 
-export default function HomeUserAchievements() {
+export default function HomeUserAchievements({ isVisible }) {
 	return (
 		<div className="home-user-achievements column">
 			{ACHIEVEMENTS.map(({ title, value }, index) => (
-				<HomeUserProgress title={title} value={value} key={index} isTransition />
+				<HomeUserProgress
+					isVisible={isVisible}
+					key={index}
+					title={title}
+					value={value}
+					delay={index * 100}
+				/>
 			))}
 		</div>
 	);
 }
+
+HomeUserAchievements.propTypes = {
+	isVisible: booleanProp
+};
