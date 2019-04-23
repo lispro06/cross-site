@@ -15,16 +15,28 @@ export default class FooterForm extends React.Component {
 
 	render() {
 		return (
-			<form name="contact" className="footer-form">
+			<form
+				action="#"
+				method="post"
+				name="contact"
+				className="footer-form"
+				data-netlify="true"
+				data-netlify-honeypot="bot-field">
+				<input type="hidden" name="bot-field" />
+
 				<input
+					id="name"
 					type="text"
-					className="footer-form__input"
-					value={this.state.name}
-					onChange={e => this.setState({ name: e.target.value })}
+					name="name"
 					placeholder="Name"
+					value={this.state.name}
+					className="footer-form__input"
+					onChange={e => this.setState({ name: e.target.value })}
 				/>
 
 				<input
+					id="email"
+					name="name"
 					type="email"
 					className="footer-form__input"
 					value={this.state.email}
@@ -33,7 +45,8 @@ export default class FooterForm extends React.Component {
 				/>
 
 				<textarea
-					type="text"
+					id="message"
+					name="message"
 					className="footer-form__input footer-form__textarea"
 					value={this.state.message}
 					onChange={e => this.setState({ message: e.target.value })}
