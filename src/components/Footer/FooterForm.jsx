@@ -20,10 +20,7 @@ export default class FooterForm extends React.Component {
 				method="post"
 				name="contact"
 				className="footer-form"
-				data-netlify="true"
-				data-netlify-honeypot="bot-field">
-				<input type="hidden" name="bot-field" />
-
+				data-netlify="true">
 				<input
 					id="name"
 					type="text"
@@ -52,6 +49,7 @@ export default class FooterForm extends React.Component {
 					onChange={e => this.setState({ message: e.target.value })}
 					placeholder="Your message"
 				/>
+
 				<button type="submit" className="footer-form__button">
 					Submit
 				</button>
