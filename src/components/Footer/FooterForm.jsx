@@ -33,7 +33,7 @@ export default class FooterForm extends React.Component {
 
 				<input
 					id="email"
-					name="name"
+					name="email"
 					type="email"
 					className="footer-form__input"
 					value={this.state.email}
