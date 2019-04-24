@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 14:06:02
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-03-31 18:07:52
+ * @Last Modified time: 2019-04-24 00:19:44
  */
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
@@ -78,7 +78,10 @@ export default function HomeAboutSection() {
 						{sections.map((section, index) => (
 							<div className="home-about-section column" key={`about-${index}`}>
 								<div className="about-section__img">
-									<Image fluid={section.img.childImageSharp.fluid} />
+									<Image
+										alt={section.title}
+										fluid={section.img.childImageSharp.fluid}
+									/>
 								</div>
 								<p className="about-section__title">{section.title}</p>
 								<p className="about-section__desc">{section.desc}</p>

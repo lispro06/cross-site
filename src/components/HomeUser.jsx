@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 15:00:02
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-04-11 22:00:24
+ * @Last Modified time: 2019-04-24 00:18:49
  */
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
@@ -35,7 +35,10 @@ export default function HomeUser() {
 				<div className="home-user grid pad-grid">
 					<div className="home-user-image column">
 						<div className="home-user-image__img">
-							<Image fluid={portrait.childImageSharp.fluid} />
+							<Image
+								alt="Kenneth Kwakye-Gyamfi"
+								fluid={portrait.childImageSharp.fluid}
+							/>
 						</div>
 						<h3 className="home-user-image__title">Who is this guy?</h3>
 						<p className="home-user-image__desc">
