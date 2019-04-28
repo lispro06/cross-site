@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 13:09:47
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-03-31 13:24:47
+ * @Last Modified time: 2019-04-28 17:02:27
  */
 import React from 'react';
 import Particles from 'react-particles-js';
@@ -54,8 +54,7 @@ const HomeHero = () => {
 
 			<div className="home-hero__inner">
 				<h1 className="home-hero__title">
-					Hello there. I&apos;m{' '}
-					<span className="home-hero__name">Kenneth Kwakye-Gyamfi</span>
+					Hi. I&apos;m <span className="home-hero__name">Kenneth Kwakye-Gyamfi</span>
 					<br />
 					I&apos;m a full stack web developer
 				</h1>

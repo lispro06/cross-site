@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 12:45:13
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-03-31 12:51:56
+ * @Last Modified time: 2019-04-28 17:15:07
  */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -51,7 +51,7 @@ const Layout = props => (
 				{ name: 'og:url', content: props.path || '/' },
 				{ name: 'og:title', content: title },
 				{ name: 'og:description', content: description },
-				{ name: 'og:image', content: description },
+				{ name: 'og:image', content: '/img/logo.jpg' },
 				{ name: 'fb:app_id', content: seo.social.fbAppId },
 				{ name: 'twitter:card', content: 'summary_large_image' },
 				{ name: 'twitter:creator', content: seo.social.twitter },
@@ -68,6 +68,12 @@ const Layout = props => (
 							<meta key={index} name={name} content={content} />
 						))}
 						<title>{title}</title>
+						{props.canonicalUrl && (
+							<link
+								rel="canonical"
+								href={`https://kwakye-gyamfi.com${props.canonicalUrl}`}
+							/>
+						)}
 					</Helmet>
 
 					<div className={props.className}>{props.children}</div>
@@ -82,6 +88,7 @@ Layout.propTypes = {
 	description: PropTypes.string,
 	image: PropTypes.string,
 	path: PropTypes.string,
+	canonicalUrl: PropTypes.string,
 	children: PropTypes.node.isRequired,
 	className: PropTypes.string
 };
