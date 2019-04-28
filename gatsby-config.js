@@ -2,7 +2,7 @@ module.exports = {
 	siteMetadata: {
 		title: 'Kenneth Kwakye-Gyamfi | Senior Mobile & Web Full Stack Developer',
 		description:
-			"Hello. My name is Kenneth. I'm a mobile + web developer currently based in Accra, Ghana and working for getINNOtized GmbH",
+			'Hello. My name is Kenneth. I am a mobile + web developer currently based in Accra, Ghana and working for getINNOtized GmbH',
 		author: 'Kenneth Kwakye-Gyamfi',
 		image: '/favicon.jpg',
 		social: {
