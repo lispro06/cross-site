@@ -1,6 +1,6 @@
 # cross-site
 
-![App Version](https://img.shields.io/badge/version-1.0.4-blue.svg)
+![App Version](https://img.shields.io/badge/version-1.0.5-blue.svg)
 ![Gatsby Version](https://img.shields.io/badge/gatsby-2.3.3-purple.svg)
 ![MongoDB Version](https://img.shields.io/badge/pull_requests-allowed-yellow.svg)
 

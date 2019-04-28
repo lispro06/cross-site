@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-03-31 12:03:16
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-04-28 17:09:24
+ * @Last Modified time: 2019-04-28 17:30:00
  */
 import React from 'react';
 
@@ -18,7 +18,7 @@ import '../css/home.css';
 
 export default function LandingPage() {
 	return (
-		<Layout className="home" canonicalUrl="/">
+		<Layout className="home" canonicalUrl="">
 			<HomeHero />
 			<HomeAbout />
 			<HomeUser />
