@@ -64,7 +64,7 @@ export default function HomeUser() {
 						<SocialLinks className="home-user-image__socials" />
 					</div>
 
-					<TrackVisibility once>
+					<TrackVisibility once className="home-user-achievements column">
 						<HomeUserAchievements />
 					</TrackVisibility>
 				</div>

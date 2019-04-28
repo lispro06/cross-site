@@ -24,19 +24,15 @@ const ACHIEVEMENTS = [
 ];
 
 export default function HomeUserAchievements({ isVisible }) {
-	return (
-		<div className="home-user-achievements column">
-			{ACHIEVEMENTS.map(({ title, value }, index) => (
-				<HomeUserProgress
-					isVisible={isVisible}
-					key={index}
-					title={title}
-					value={value}
-					delay={index * 100}
-				/>
-			))}
-		</div>
-	);
+	return ACHIEVEMENTS.map(({ title, value }, index) => (
+		<HomeUserProgress
+			isVisible={isVisible}
+			key={index}
+			title={title}
+			value={value}
+			delay={index * 100}
+		/>
+	));
 }
 
 HomeUserAchievements.propTypes = {
