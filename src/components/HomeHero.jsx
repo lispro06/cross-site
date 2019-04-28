@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import Particles from 'react-particles-js';
+import { scroller } from 'react-scroll';
 
 const PARTICLE_PARAMS = {
 	particles: {
@@ -39,6 +40,14 @@ const PARTICLE_PARAMS = {
 };
 
 const HomeHero = () => {
+	const scrollToAbout = () => {
+		scroller.scrollTo('home-about', {
+			duration: 1500,
+			delay: 0,
+			smooth: 'easeInOutQuart'
+		});
+	};
+
 	return (
 		<header className="home-hero">
 			<Particles params={PARTICLE_PARAMS} className="home-hero__particles" />
@@ -51,7 +60,7 @@ const HomeHero = () => {
 					I&apos;m a full stack web developer
 				</h1>
 
-				<button className="home-hero__button">
+				<button className="home-hero__button" onClick={scrollToAbout}>
 					<span className="home-hero__button-text">Let&apos;s take a tour</span>
 					<i className="home-hero__button-icon ti-arrow-right" />
 				</button>
