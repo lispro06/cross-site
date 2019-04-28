@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-04-11 17:30:07
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-04-28 17:24:08
+ * @Last Modified time: 2019-04-28 17:28:15
  */
 import React from 'react';
 
@@ -31,7 +31,7 @@ const projects = [
 		description: "v2.0 of Ghana's State of the art online ticketing system.",
 		img: '/img/tickethouse-old.webp',
 		inProgress: true,
-		url: 'https://play.google.com/store/apps/details?id=com.caoa.yakokoe.yakokoe&hl=en'
+		url: 'https://www.tickethousegh.com'
 	}
 ];
 
