@@ -5,6 +5,7 @@
  * @Last Modified time: 2019-04-11 21:50:21
  */
 import React from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 
 import FooterForm from './FooterForm';
 import './footer.css';
@@ -18,7 +19,10 @@ function Footer() {
 			<FooterForm />
 
 			<div className="footer__base">
-				<button className="footer-base__scroll-to" title="Click to scroll to the top">
+				<button
+					onClick={scroll.scrollToTop}
+					className="footer-base__scroll-to"
+					title="Click to scroll to the top">
 					<i className="ti-angle-double-up" />
 				</button>
 				<p className="copyright">Kwakye-Gyamfi Kenneth &copy; 2019</p>
