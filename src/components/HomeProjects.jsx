@@ -2,7 +2,7 @@
  * @Author: Kenneth Kwakye-Gyamfi
  * @Date: 2019-04-11 17:30:07
  * @Last Modified by: Kenneth Kwakye-Gyamfi
- * @Last Modified time: 2019-04-11 20:57:46
+ * @Last Modified time: 2019-04-28 17:24:08
  */
 import React from 'react';
 
@@ -22,7 +22,7 @@ const projects = [
 		type: 'Mobile',
 		description: 'Pollution detection and Air Quality Index calculator',
 		img: '/img/yakokoe.webp',
-		url: 'https://play.google.com/store/apps/details?id=com.caoa.yakokoe.yakokoe&hl=en'
+		url: 'https://play.google.com/store/apps/details?id=com.cleanairghana.yakokoe&hl=en'
 	},
 	{
 		id: 3,
