@@ -1,7 +1,7 @@
 {
 	"name": "cross-site",
 	"private": false,
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Website for Kenneth Kwakye-Gyamfi, built with Gatsby JS and React and hosted with ♥ at Netlify",
 	"license": "MIT",
 	"author": {
