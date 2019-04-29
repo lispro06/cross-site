@@ -47,6 +47,10 @@ const Layout = props => (
 			const image = props.image || seo.image;
 
 			const meta = [
+				{
+					name: 'google-site-verification',
+					content: 'vaxJ0jcuzGO9aicclUEDRPjgOVxvUAiza99Xs7uIdPc'
+				},
 				{ name: 'description', content: description },
 				{ name: 'og:url', content: props.path || '/' },
 				{ name: 'og:title', content: title },
@@ -68,7 +72,7 @@ const Layout = props => (
 							<meta key={index} name={name} content={content} />
 						))}
 						<title>{title}</title>
-						{props.canonicalUrl && (
+						{typeof props.canonicalUrl !== 'undefined' && (
 							<link
 								rel="canonical"
 								href={`https://kwakye-gyamfi.com${props.canonicalUrl}`}
