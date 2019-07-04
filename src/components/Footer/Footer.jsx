@@ -14,7 +14,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<h2 className="footer__title">Contact</h2>
-			<p className="footer__subtitle">Have a question or want us to work together?</p>
+			<p className="footer__subtitle">(06612) 032, 441, Gangnam-daero, Seocho-gu, Seoul, 06612, Rep. of KOREA</p>
 
 			<FooterForm />
 
@@ -25,13 +25,7 @@ function Footer() {
 					title="Click to scroll to the top">
 					<i className="ti-angle-double-up" />
 				</button>
-				<p className="copyright">Kwakye-Gyamfi Kenneth &copy; 2019</p>
-				<p className="footer-base__github">
-					View this project on{' '}
-					<a href="https://www.github.com/cr05s19xx/cross-site">
-						<i className="ti-github" />
-						<span>Github</span>
-					</a>
+				<p className="copyright">© 2019 Boanit Co.,Ltd. All rights reserved.
 				</p>
 			</div>
 		</footer>
