@@ -50,25 +50,25 @@ export default function HomeAboutSection() {
 					{
 						title: 'Frontend consulting',
 						desc:
-							'Frontend development with experience writing code in React, Angular, VueJS and vanilla JavaScript.',
+							'Frontend consulting with experience writing code in JavaScript.',
 						img: data.frontendImg
 					},
 					{
 						title: 'Backend consulting',
 						desc:
-							'Backend and microservice architecture development, with experience in NodeJS, Python and PHP.',
+							'Backend and microservice architecture consulting, with experience in JAVA, ASP and PHP.',
 						img: data.backendImg
 					},
 					{
 						title: 'Mobile app consulting',
 						desc:
-							'Native android application development (Java + Kotlin) as well as hybrid applications built with React Native, Ionic and Flutter',
+							'Native android application consulting, IOS',
 						img: data.mobileImg
 					},
 					{
-						title: 'Secure code',
+						title: 'Secure coding',
 						desc:
-							'Prefer to follow the software development lifecycle meticulously, not forgetting sections such as documentation and testing. 🤒',
+							'Source code Diagnosis',
 						img: data.cleanCodeImg
 					}
 				];
