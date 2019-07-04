@@ -25,7 +25,6 @@ const imgQuery = graphql`
 `;
 
 export default function HomeUser() {
-	// Defined the height because it was messing up in React rendering 😅
 	const height = '6\'5"';
 
 	return (
@@ -40,24 +39,14 @@ export default function HomeUser() {
 								fluid={portrait.childImageSharp.fluid}
 							/>
 						</div>
-						<h3 className="home-user-image__title">Who is this guy?</h3>
-						<p className="home-user-image__desc">
-							I&apos;m a {height} full stack developer 💪🏼 with a 4-year work
-							experience and currently working for{' '}
-							<a
-								target="_blank"
-								rel="noopener noreferrer"
-								href="https://www.getinnotized.com">
-								getINNOtized GmbH
-							</a>{' '}
-							in North Legon, Accra. I have the passion for developing secure and
-							aesthetically pleasing applications 😍, or portions of an application.
+						<h3 className="home-user-image__title">boanit?</h3>
+						<p className="home-user-image__desc">boanit is a company that specializes in information security.
 						</p>
 
 						<div className="resume-container">
-							<a href="/Kenneth-Kwakye-Gyamfi-resume.pdf" download>
+							<a href="/boanit.pdf" download>
 								<i className="ti-download" />
-								<span>Download my resumé</span>
+								<span>Download ppt</span>
 							</a>
 						</div>
 
