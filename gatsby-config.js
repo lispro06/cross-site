@@ -1,37 +1,37 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Kenneth Kwakye-Gyamfi | Senior Mobile & Web Full Stack Developer',
+		title: 'boanit | security consulting',
 		description:
-			'Hello. My name is Kenneth. I am a mobile + web developer currently based in Accra, Ghana and working for getINNOtized GmbH',
-		author: 'Kenneth Kwakye-Gyamfi',
+			'homepage',
+		author: 'boanit',
 		image: '/favicon.jpg',
 		social: {
-			twitter: '@cross19xx',
-			fbAppId: '100009436144652'
+			twitter: '@zero6pak',
+			fbAppId: '1073918966083609'
 		},
 		socialUrls: [
 			{
-				url: 'https://www.facebook.com/profile.php?id=100009436144652',
+				url: '#',
 				className: 'fab fa-facebook',
 				containerClass: 'facebook'
 			},
 			{
-				url: 'https://www.github.com/cr05s19xx',
+				url: '#',
 				className: 'fab fa-github',
 				containerClass: 'github'
 			},
 			{
-				url: 'https://www.twitter.com/cross19xx',
+				url: '#',
 				className: 'fab fa-twitter',
 				containerClass: 'twitter'
 			},
 			{
-				url: 'https://www.instagram.com/kenneth_kwakyegyamfi/',
+				url: '#',
 				className: 'fab fa-instagram',
 				containerClass: 'instagram'
 			},
 			{
-				url: 'https://www.linkedin.com/in/kenneth-kwakye-gyamfi/',
+				url: '#',
 				className: 'fab fa-linkedin',
 				containerClass: 'linkedin'
 			}
@@ -51,8 +51,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: 'Kenneth Kwakye-Gyamfi',
-				short_name: 'KKG',
+				name: 'boanit',
+				short_name: 'bit',
 				start_url: '/',
 				background_color: '#FFFFFF',
 				theme_color: '#FFFFFF',
