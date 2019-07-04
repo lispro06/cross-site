@@ -9,12 +9,12 @@ import React from 'react';
 const projects = [
 	{
 		id: 1,
-		name: 'Prestige Capital',
+		name: 'Kakao Chatbot',
 		description:
-			'Member of the team of developers for the development of the Prestige Capital GH website',
-		type: 'Web',
-		img: '/img/prestige-capital.webp',
-		url: 'https://www.prestigecapitalgh.com'
+			'chatbot with google product',
+		type: 'Cloud',
+		img: 'https://boanit.kr/assets/image/contact.jpg',
+		url: 'https://pf.kakao.com/_xlwrJC'
 	},
 	{
 		id: 2,
@@ -26,12 +26,12 @@ const projects = [
 	},
 	{
 		id: 3,
-		name: 'TICKETHOUSE Ghana',
-		type: 'Website + Mobile',
-		description: "v2.0 of Ghana's State of the art online ticketing system.",
+		name: 'Technical Blog',
+		type: 'Website + Mobile + IoT',
+		description: "technical blog.",
 		img: '/img/tickethouse-old.webp',
 		inProgress: true,
-		url: 'https://www.tickethousegh.com'
+		url: 'https://boanit.kr/pen/'
 	}
 ];
 
@@ -72,9 +72,7 @@ function HomeProjects() {
 			<div className="grid pad-grid">
 				<h2 className="home-projects__title">Stuff I&apos;ve worked on</h2>
 				<p className="home-projects__subtitle">
-					These are the things I&apos;ve worked on. They are the things I did as a
-					freelancer (i.e. I was not employed under any of the companies I have worked
-					for)
+					These are the things We&apos;re worked on.
 				</p>
 
 				<div className="home-projects__container">{renderProjects()}</div>
