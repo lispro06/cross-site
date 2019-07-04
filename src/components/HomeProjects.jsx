@@ -70,7 +70,7 @@ function HomeProjects() {
 	return (
 		<div className="home-projects">
 			<div className="grid pad-grid">
-				<h2 className="home-projects__title">Stuff I&apos;ve worked on</h2>
+				<h2 className="home-projects__title">Stuff we&apos;ve worked on</h2>
 				<p className="home-projects__subtitle">
 					These are the things We&apos;re worked on.
 				</p>
