@@ -15,7 +15,7 @@ export default class FooterForm extends React.Component {
 
 	render() {
 		return (
-			<form
+			<!--form
 				action="#"
 				method="post"
 				name="contact"
@@ -53,7 +53,7 @@ export default class FooterForm extends React.Component {
 				<button type="submit" className="footer-form__button">
 					Submit
 				</button>
-			</form>
+			</form-->
 		);
 	}
 }
