@@ -18,19 +18,18 @@ const projects = [
 	},
 	{
 		id: 2,
-		name: 'Yakɔkoe',
+		name: 'Guide',
 		type: 'Mobile',
-		description: 'Pollution detection and Air Quality Index calculator',
-		img: '/img/yakokoe.webp',
-		url: 'https://play.google.com/store/apps/details?id=com.cleanairghana.yakokoe&hl=en'
+		description: 'Guide production',
+		img: 'https://boanit.kr/assets/img/guide.png',
+		url: ''
 	},
 	{
 		id: 3,
 		name: 'Technical Blog',
 		type: 'Website + Mobile + IoT',
 		description: "technical blog.",
-		img: '/img/tickethouse-old.webp',
-		inProgress: true,
+		img: 'https://boanit.kr/assets/image/mobile2.jpg',
 		url: 'https://boanit.kr/pen/'
 	}
 ];
