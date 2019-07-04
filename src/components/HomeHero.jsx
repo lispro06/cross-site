@@ -54,9 +54,9 @@ const HomeHero = () => {
 
 			<div className="home-hero__inner">
 				<h1 className="home-hero__title">
-					Hi. I&apos;m <span className="home-hero__name">Kenneth Kwakye-Gyamfi</span>
+					Hi. We&apos;re <span className="home-hero__name">boanit</span>
 					<br />
-					I&apos;m a full stack web developer
+					We&apos;re a full stack web/app consultant
 				</h1>
 
 				<button className="home-hero__button" onClick={scrollToAbout}>
