@@ -48,25 +48,25 @@ export default function HomeAboutSection() {
 			render={data => {
 				const sections = [
 					{
-						title: 'Frontend development',
+						title: 'Frontend consulting',
 						desc:
 							'Frontend development with experience writing code in React, Angular, VueJS and vanilla JavaScript.',
 						img: data.frontendImg
 					},
 					{
-						title: 'Backend development',
+						title: 'Backend consulting',
 						desc:
 							'Backend and microservice architecture development, with experience in NodeJS, Python and PHP.',
 						img: data.backendImg
 					},
 					{
-						title: 'Mobile app development',
+						title: 'Mobile app consulting',
 						desc:
 							'Native android application development (Java + Kotlin) as well as hybrid applications built with React Native, Ionic and Flutter',
 						img: data.mobileImg
 					},
 					{
-						title: 'Clean code OCD patient',
+						title: 'Secure code',
 						desc:
 							'Prefer to follow the software development lifecycle meticulously, not forgetting sections such as documentation and testing. 🤒',
 						img: data.cleanCodeImg
