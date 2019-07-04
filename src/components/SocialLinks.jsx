@@ -34,17 +34,8 @@ export default function SocialLinks(props) {
 				} = site;
 
 				return (
-					<!--div className={props.className}>
-						{socialUrls.map(({ url, className, containerClass }, index) => (
-							<a
-								key={index}
-								href={url}
-								target="__blank"
-								className={`social-link ${containerClass}`}>
-								<i className={className} />
-							</a>
-						))}
-					</div-->
+					<div className={props.className}>
+					</div>
 				);
 			}}
 		/>
