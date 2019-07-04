@@ -2,11 +2,11 @@
 	"name": "cross-site",
 	"private": false,
 	"version": "1.0.5",
-	"description": "Website for Kenneth Kwakye-Gyamfi, built with Gatsby JS and React and hosted with ♥ at Netlify",
+	"description": "Website for boanit at Netlify",
 	"license": "MIT",
 	"author": {
-		"name": "Kenneth Kwakye-Gyamfi",
-		"email": "kenneth.cross95@gmail.com"
+		"name": "boanit",
+		"email": "boanit@boanit.kr"
 	},
 	"keywords": [
 		"gatsby",
@@ -16,7 +16,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cr05s19xx/cross-site.git"
+		"url": "https://github.com/boanit/cross-site.git"
 	},
 	"dependencies": {
 		"gatsby": "^2.3.27",
