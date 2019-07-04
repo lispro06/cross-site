@@ -75,7 +75,7 @@ const Layout = props => (
 						{typeof props.canonicalUrl !== 'undefined' && (
 							<link
 								rel="canonical"
-								href={`https://kwakye-gyamfi.com${props.canonicalUrl}`}
+								href={`https://boanit.kr${props.canonicalUrl}`}
 							/>
 						)}
 					</Helmet>
