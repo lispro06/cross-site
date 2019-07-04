@@ -11,7 +11,7 @@ import HomeAboutSection from './HomeAboutSection';
 
 const HomeAbout = () => (
 	<Element className="home-about" name="home-about">
-		<h2 className="home-about__title">About me</h2>
+		<h2 className="home-about__title">About boanit</h2>
 		<div className="home-about__section-container grid pad-grid">
 			<HomeAboutSection />
 		</div>
