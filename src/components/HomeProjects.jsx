@@ -22,7 +22,7 @@ const projects = [
 		type: 'Mobile',
 		description: 'Guide production',
 		img: 'https://boanit.kr/assets/img/guide.png',
-		url: ''
+		url: 'https://boanit.kr/pen/jstl-xss-prevention'
 	},
 	{
 		id: 3,
