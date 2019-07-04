@@ -34,7 +34,7 @@ export default function SocialLinks(props) {
 				} = site;
 
 				return (
-					<div className={props.className}>
+					<!--div className={props.className}>
 						{socialUrls.map(({ url, className, containerClass }, index) => (
 							<a
 								key={index}
@@ -44,7 +44,7 @@ export default function SocialLinks(props) {
 								<i className={className} />
 							</a>
 						))}
-					</div>
+					</div-->
 				);
 			}}
 		/>
