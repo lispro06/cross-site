@@ -16,11 +16,11 @@ const ACHIEVEMENTS = [
 	{ title: 'Server consulting', value: 97.5 },
 	{ title: 'Network consulting', value: 90 },
 	{ title: 'WEB/WAS consulting', value: 90 },
-	{ title: 'IoT', value: 50 },
-	{ title: 'Bigdata', value: 55 },
+	{ title: 'API', value: 100 },
+	{ title: 'IoT', value: 55 },
 	{ title: 'Cloud', value: 50 },
 	{ title: 'AI', value: 45 },
-	{ title: '5G', value: 60 }
+	{ title: 'Bigdata', value: 50 }
 ];
 
 export default function HomeUserAchievements({ isVisible }) {
