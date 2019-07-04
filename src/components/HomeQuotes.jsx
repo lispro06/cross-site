@@ -8,16 +8,16 @@ import React from 'react';
 
 const quotes = [
 	{
-		text: 'No price is too high to pay for the privilege of owning yourself',
-		author: 'Friedrich Nietzsche'
+		text: 'Perform the latest vulnerability discovery and check.',
+		author: 'Vulnerability Diagnosis'
 	},
 	{
-		text: 'Whosoever desires constant success must change his conduct with the times',
-		author: 'Niccolo Machiavelli'
+		text: 'Validate the integrity check of the source code and the existence of security vulnerabilities.',
+		author: 'Source code Diagnosis'
 	},
 	{
-		text: 'Great things are done by a series of small things brought together',
-		author: 'Vincent Van Gogh'
+		text: 'Provides guidance and training on smartphone apps.',
+		author: 'Mobile app Diagnosis'
 	}
 ];
 
