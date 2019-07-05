@@ -21,16 +21,16 @@ const projects = [
 		name: 'Guide',
 		type: 'Mobile',
 		description: 'Guide production',
-		img: 'https://boanit.kr/assets/img/guide.png',
-		url: 'https://boanit.kr/pen/jstl-xss-prevention'
+		img: 'https://boanit.github.io/assets/img/guide.png',
+		url: 'https://boanit.github.io/pen/jstl-xss-prevention'
 	},
 	{
 		id: 3,
 		name: 'Technical Blog',
 		type: 'Website + Mobile + IoT',
 		description: "technical blog.",
-		img: 'https://boanit.kr/assets/image/mobile2.jpg',
-		url: 'https://boanit.kr/pen/'
+		img: 'https://boanit.github.io/assets/image/mobile2.jpg',
+		url: 'https://boanit.github.io/pen/'
 	}
 ];
 
